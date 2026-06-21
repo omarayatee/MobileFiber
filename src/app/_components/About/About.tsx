@@ -13,7 +13,7 @@ export default function About() {
             width={500}
             height={500}
           />
-          <div className="flex flex-row items-center h-screen">
+          <div className="flex flex-row items-center pb-10">
             <div className="bg-green-100 p-6 md:p-10 relative h-[90%]">
               <h2 className="text-green-600 font-bold text-lg text-right mb-8">
                 من نحن
@@ -22,13 +22,11 @@ export default function About() {
               {/* Content */}
               <div className="text-center text-gray-700 leading-9 space-y-6">
                 <p>
-                  منصة Mobile Fiber Srv وساطة مستقلة تهدف إلى مساعدتك في اختيار
-                  أفضل باقات الألياف البصرية والإنترنت المنزلي في المملكة
-                  العربية السعودية بكل سهولة وشفافية.
+               نحن مندوب معتمد لخدمات موبايلي فايبر في جميع مدن المملكة. نصلك في منزلك, نركب مجانا. ونضمن لك افضل سرعة انترنت خلال ساعات من وقت طلبك.
                 </p>
 
                 <p>
-                  نحن نعمل كوسيط بين العميل ومقدمي الخدمة لضمان حصولك على الباقة
+                  نحن نعمل  لضمان حصولك على الباقة
                   الأنسب لاحتياجاتك بأسرع وقت ممكن، مع تقديم استشارات مجانية
                   ودعم مستمر.
                 </p>

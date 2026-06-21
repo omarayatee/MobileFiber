@@ -29,7 +29,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 lg:h-18 gap-4 lg:gap-8">
             <Link href="/" className="flex gap-2 justify-center items-center">
               <div className="flex flex-col gap-0.5 items-center justify-center">
-                <h3 className="text-[#008236] text-3xl">Mobile Fiber Srv</h3>
+                <h3 className="text-[#008236] text-3xl">Mobile Fiber</h3>
                 <p className="text-xl">مندوب فايبر موبايلي</p>
               </div>
               <Image

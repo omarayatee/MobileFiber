@@ -78,9 +78,9 @@ export default function Packages() {
           >
             <div  className="absolute inset-0 pointer-events-none bg-linear-to-b from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" ></div>
 
-            <span className="text-green-500 font-semibold">هوم فايبر</span>
+            <span className="text-blue-600 font-semibold">هوم فايبر</span>
 
-            <h3 className="mt-4 text-5xl font-bold text-green-500">
+            <h3 className="mt-4 text-5xl font-bold text-blue-600">
               300
               <span className="text-lg text-slate-400 mr-2">Mbps</span>
             </h3>
@@ -92,10 +92,10 @@ export default function Packages() {
             <div className="my-6 h-px bg-white/10"></div>
 
             <ul className="space-y-4 text-slate-300">
-              <li className="flex items-center gap-3"><FaDownload className="text-green-500 text-lg" /> <span>سرعة التحميل تصل إلى 300 ميجا/ثانية</span></li>
-              <li className="flex items-center gap-3"><FaUpload className="text-green-500 text-lg" />  <span>سرعة الرفع تصل إلى 100 ميجا/ثانية</span></li>
-              <li className="flex items-center gap-3"><FaWifi className="text-green-500 text-lg" /> <span>اتصال ثابت وعالي الجودة</span></li>
-              <li className="flex items-center gap-3"> <FaHome className="text-green-500 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
+              <li className="flex items-center gap-3"><FaDownload className="text-blue-600 text-lg" /> <span>سرعة التحميل تصل إلى 300 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaUpload className="text-blue-600 text-lg" />  <span>سرعة الرفع تصل إلى 100 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaWifi className="text-blue-600 text-lg" /> <span>اتصال ثابت وعالي الجودة</span></li>
+              <li className="flex items-center gap-3"> <FaHome className="text-blue-600 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
             </ul>
 
             <div className="mt-8 text-center">
@@ -116,12 +116,12 @@ export default function Packages() {
       items-center
       justify-center
       rounded-xl
-      bg-green-500
+      bg-blue-500
       py-3
       font-semibold
       text-white
       transition-all
-      hover:bg-green-600
+      hover:bg-blue-600
       cursor-pointer
     "
             >
@@ -148,9 +148,9 @@ export default function Packages() {
           >
             <div  className="absolute inset-0 pointer-events-none bg-linear-to-b from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" ></div>
 
-            <span className="text-green-500 font-semibold">هوم فايبر</span>
+            <span className="text-blue-600 font-semibold">هوم فايبر</span>
 
-            <h3 className="mt-4 text-5xl font-bold text-green-500">
+            <h3 className="mt-4 text-5xl font-bold text-blue-600">
               400
               <span className="text-lg text-slate-400 mr-2">Mbps</span>
             </h3>
@@ -162,10 +162,10 @@ export default function Packages() {
             <div className="my-6 h-px bg-white/10"></div>
 
             <ul className="space-y-4 text-slate-300">
-              <li className="flex items-center gap-3"><FaDownload className="text-green-500 text-lg" /> <span>سرعة التحميل تصل إلى 400 ميجا/ثانية</span></li>
-              <li className="flex items-center gap-3"><FaUpload className="text-green-500 text-lg" />  <span>سرعة الرفع تصل إلى 150 ميجا/ثانية</span></li>
-              <li className="flex items-center gap-3"><FaWifi className="text-green-500 text-lg" /> <span>اتصال ثابت وعالي الجودة</span></li>
-              <li className="flex items-center gap-3"> <FaHome className="text-green-500 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
+              <li className="flex items-center gap-3"><FaDownload className="text-blue-600 text-lg" /> <span>سرعة التحميل تصل إلى 400 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaUpload className="text-blue-600 text-lg" />  <span>سرعة الرفع تصل إلى 150 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaWifi className="text-blue-600 text-lg" /> <span>اتصال ثابت وعالي الجودة</span></li>
+              <li className="flex items-center gap-3"> <FaHome className="text-blue-600 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
             </ul>
 
             <div className="mt-8 text-center">
@@ -186,12 +186,12 @@ export default function Packages() {
       items-center
       justify-center
       rounded-xl
-      bg-green-500
+      bg-blue-500
       py-3
       font-semibold
       text-white
       transition-all
-      hover:bg-green-600
+      hover:bg-blue-600
       cursor-pointer
     "
             >
@@ -219,9 +219,9 @@ export default function Packages() {
           >
             <div  className="absolute inset-0 pointer-events-none bg-linear-to-b from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" ></div>
 
-            <span className="text-green-500 font-semibold">هوم فايبر</span>
+            <span className="text-blue-600 font-semibold">هوم فايبر</span>
 
-            <h3 className="mt-4 text-5xl font-bold text-green-500">
+            <h3 className="mt-4 text-5xl font-bold text-blue-600">
               500
               <span className="text-lg text-slate-400 mr-2">Mbps</span>
             </h3>
@@ -233,10 +233,10 @@ export default function Packages() {
             <div className="my-6 h-px bg-white/10"></div>
 
             <ul className="space-y-4 text-slate-300">
-              <li className="flex items-center gap-3"><FaDownload className="text-green-500 text-lg" /> <span>سرعة التحميل تصل إلى 500 ميجا/ثانية</span></li>
-              <li className="flex items-center gap-3"><FaUpload className="text-green-500 text-lg" />  <span>سرعة الرفع تصل إلى 200 ميجا/ثانية</span></li>
-              <li className="flex items-center gap-3"><FaWifi className="text-green-500 text-lg" /> <span>اتصال ثابت وعالي الجودة</span></li>
-              <li className="flex items-center gap-3"> <FaHome className="text-green-500 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
+              <li className="flex items-center gap-3"><FaDownload className="text-blue-600 text-lg" /> <span>سرعة التحميل تصل إلى 500 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaUpload className="text-blue-600 text-lg" />  <span>سرعة الرفع تصل إلى 200 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaWifi className="text-blue-600 text-lg" /> <span>اتصال ثابت وعالي الجودة</span></li>
+              <li className="flex items-center gap-3"> <FaHome className="text-blue-600 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
             </ul>
 
             <div className="mt-8 text-center">
@@ -257,12 +257,12 @@ export default function Packages() {
       items-center
       justify-center
       rounded-xl
-      bg-green-500
+      bg-blue-500
       py-3
       font-semibold
       text-white
       transition-all
-      hover:bg-green-600
+      hover:bg-blue-600
       cursor-pointer
     "
             >
@@ -290,9 +290,9 @@ export default function Packages() {
           >
             <div  className="absolute inset-0 pointer-events-none bg-linear-to-b from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" ></div>
 
-            <span className="text-green-500 font-semibold">هوم فايبر</span>
+            <span className="text-blue-600 font-semibold">هوم فايبر</span>
 
-            <h3 className="mt-4 text-5xl font-bold text-text-slate-400">
+            <h3 className="mt-4 text-5xl font-bold text-blue-600">
               قيمرز 500
             </h3>
 
@@ -303,10 +303,10 @@ export default function Packages() {
             <div className="my-6 h-px bg-white/10"></div>
 
             <ul className="space-y-4 text-slate-300">
-              <li className="flex items-center gap-3"><FaDownload className="text-green-500 text-lg" /> <span>سرعة التحميل تصل إلى 500 ميجا/ثانية</span></li>
-              <li className="flex items-center gap-3"><FaUpload className="text-green-500 text-lg" />  <span>سرعة الرفع تصل إلى 200 ميجا/ثانية</span></li>
-              <li className="flex items-center gap-3"><FaWifi className="text-green-500 text-lg" /> <span>3 مقوي واي فاي مجانا</span></li>
-              <li className="flex items-center gap-3"> <FaHome className="text-green-500 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
+              <li className="flex items-center gap-3"><FaDownload className="text-blue-600 text-lg" /> <span>سرعة التحميل تصل إلى 500 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaUpload className="text-blue-600 text-lg" />  <span>سرعة الرفع تصل إلى 200 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaWifi className="text-blue-600 text-lg" /> <span>3 مقوي واي فاي مجانا</span></li>
+              <li className="flex items-center gap-3"> <FaHome className="text-blue-600 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
             </ul>
 
             <div className="mt-8 text-center">
@@ -327,12 +327,12 @@ export default function Packages() {
       items-center
       justify-center
       rounded-xl
-      bg-green-500
+      bg-blue-500
       py-3
       font-semibold
       text-white
       transition-all
-      hover:bg-green-600
+      hover:bg-blue-600
       cursor-pointer
     "
             >
@@ -361,9 +361,9 @@ export default function Packages() {
           >
             <div  className="absolute inset-0 pointer-events-none bg-linear-to-b from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" ></div>
 
-            <span className="text-green-500 font-semibold">هوم فايبر</span>
+            <span className="text-blue-600 font-semibold">هوم فايبر</span>
 
-            <h3 className="mt-4 text-5xl font-bold text-text-slate-400">
+            <h3 className="mt-4 text-5xl font-bold text-blue-600">
               1 جيجابت
             </h3>
 
@@ -374,10 +374,10 @@ export default function Packages() {
             <div className="my-6 h-px bg-white/10"></div>
 
             <ul className="space-y-4 text-slate-300">
-              <li className="flex items-center gap-3"><FaDownload className="text-green-500 text-lg" /> <span>سرعة التحميل تصل إلى 1 جيجابت/ثانية</span></li>
-              <li className="flex items-center gap-3"><FaUpload className="text-green-500 text-lg" />  <span>سرعة الرفع تصل إلى 300 ميجا/ثانية</span></li>
-              <li className="flex items-center gap-3"><FaWifi className="text-green-500 text-lg" /> <span>3 مقوي واي فاي مجانا</span></li>
-              <li className="flex items-center gap-3"> <FaHome className="text-green-500 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
+              <li className="flex items-center gap-3"><FaDownload className="text-blue-600 text-lg" /> <span>سرعة التحميل تصل إلى 1 جيجابت/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaUpload className="text-blue-600 text-lg" />  <span>سرعة الرفع تصل إلى 300 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaWifi className="text-blue-600 text-lg" /> <span>3 مقوي واي فاي مجانا</span></li>
+              <li className="flex items-center gap-3"> <FaHome className="text-blue-600 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
             </ul>
 
             <div className="mt-8 text-center">
@@ -398,12 +398,12 @@ export default function Packages() {
       items-center
       justify-center
       rounded-xl
-      bg-green-500
+      bg-blue-500
       py-3
       font-semibold
       text-white
       transition-all
-      hover:bg-green-600
+      hover:bg-blue-600
       cursor-pointer
     "
             >
