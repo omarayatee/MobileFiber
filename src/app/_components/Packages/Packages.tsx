@@ -2,15 +2,19 @@ import Image from "next/image";
 import React from "react";
 import packageone from "../../../assets/images/first-package.webp";
 import secondpackage from "../../../assets/images/second-package.webp";
-import thirdpackage from "../../../assets/images/third-package.jpg"
-import fourthpackage from "../../../assets/images/fourth-package.webp"
-import fifthpackage from "../../../assets/images/fifth-package.avif"
+import thirdpackage from "../../../assets/images/third-package.jpg";
+import fourthpackage from "../../../assets/images/fourth-package.webp";
+import fifthpackage from "../../../assets/images/fifth-package.avif";
 import {
   FaSearch,
   FaHashtag,
   FaWhatsapp,
   FaCheckCircle,
   FaLightbulb,
+  FaDownload,
+  FaUpload,
+  FaWifi,
+  FaHome,
 } from "react-icons/fa";
 
 const steps = [
@@ -36,7 +40,6 @@ const steps = [
   },
 ];
 
-
 export default function Packages() {
   return (
     <>
@@ -55,360 +58,416 @@ export default function Packages() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-        {/* First Card */}
-          <div className="relative w-95 h-180 rounded-[40px] overflow-hidden">
-            {/* Background Image */}
-            <Image
-              src={packageone}
-              alt="home fiber"
-              fill
-              className="object-cover"
-            />
+          {/* First Card */}
+          <div
+            className="
+    group
+    relative
+    overflow-hidden
+    rounded-3xl
+    border border-green-100
+    bg-white/5
+    backdrop-blur-md
+    p-6
+    transition-all
+    duration-500
+    hover:-translate-y-3
+    hover:border-green-500/50
+    hover:shadow-[0_0_40px_rgba(34,197,94,0.2)]
+  "
+          >
+            <div  className="absolute inset-0 pointer-events-none bg-linear-to-b from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" ></div>
 
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-[#0A1F4F]/80"></div>
+            <span className="text-green-500 font-semibold">هوم فايبر</span>
 
-            {/* Content */}
-            <div className="relative z-10 flex flex-col justify-between h-full p-8 text-white text-center">
-              {/* Top Content */}
-              <div>
-                <h2 className="text-5xl font-extrabold leading-tight">
-                  هوم فايبر
-                  <br />
-                  300 ميجا
-                </h2>
+            <h3 className="mt-4 text-5xl font-bold text-green-500">
+              300
+              <span className="text-lg text-slate-400 mr-2">Mbps</span>
+            </h3>
 
-                <div className="mt-10 space-y-8 text-3xl leading-relaxed">
-                  <p>
-                    سرعة التحميل تصل إلى 300
-                    <br />
-                    ميجا في الثانية
-                  </p>
+            <p className="mt-3 text-slate-400">
+              سرعة إنترنت فائقة للمشاهدة والألعاب والعمل من المنزل
+            </p>
 
-                  <p>
-                    سرعة الرفع تصل إلى 100 ميجا
-                    <br />
-                    في الثانية
-                  </p>
-                </div>
-              </div>
+            <div className="my-6 h-px bg-white/10"></div>
 
-              {/* Bottom Content */}
-              <div className="pb-4">
-                <h3 className="text-7xl font-bold">287.5</h3>
+            <ul className="space-y-4 text-slate-300">
+              <li className="flex items-center gap-3"><FaDownload className="text-green-500 text-lg" /> <span>سرعة التحميل تصل إلى 300 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaUpload className="text-green-500 text-lg" />  <span>سرعة الرفع تصل إلى 100 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaWifi className="text-green-500 text-lg" /> <span>اتصال ثابت وعالي الجودة</span></li>
+              <li className="flex items-center gap-3"> <FaHome className="text-green-500 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
+            </ul>
 
-                <p className="text-3xl mt-2">ريال/شهر</p>
-
-                <div className="bg-cyan-400 text-black mt-7 w-full  font-bold text-4xl p-6 rounded-4xl hover:bg-cyan-300 transition">
-                  <a
-                    href="https://wa.me/966545575181"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    اطلب الان
-                  </a>
-                </div>
-              </div>
+            <div className="mt-8 text-center">
+              <h4 className="text-4xl font-bold text-black-500">
+                287.5
+                <span className="text-lg text-slate-400 mr-2">ريال / شهر</span>
+              </h4>
             </div>
+
+            <a
+              href="https://wa.me/966545575181"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+      mt-8
+      flex
+      w-full
+      items-center
+      justify-center
+      rounded-xl
+      bg-green-500
+      py-3
+      font-semibold
+      text-white
+      transition-all
+      hover:bg-green-600
+      cursor-pointer
+    "
+            >
+              اطلب الآن
+            </a>
           </div>
           {/*Second Card  */}
-          <div className="relative w-95 h-180 rounded-[40px] overflow-hidden">
-            {/* Background Image */}
-            <Image
-              src={secondpackage}
-              alt="home fiber"
-              fill
-              className="object-cover"
-            />
+          <div
+            className="
+    group
+    relative
+    overflow-hidden
+    rounded-3xl
+    border border-green-100
+    bg-white/5
+    backdrop-blur-md
+    p-6
+    transition-all
+    duration-500
+    hover:-translate-y-3
+    hover:border-green-500/50
+    hover:shadow-[0_0_40px_rgba(34,197,94,0.2)]
+  "
+          >
+            <div  className="absolute inset-0 pointer-events-none bg-linear-to-b from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" ></div>
 
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-[#0A1F4F]/80"></div>
+            <span className="text-green-500 font-semibold">هوم فايبر</span>
 
-            {/* Content */}
-            <div className="relative z-10 flex flex-col justify-between h-full p-8 text-white text-center">
-              {/* Top Content */}
-              <div>
-                <h2 className="text-5xl font-extrabold leading-tight">
-                  هوم فايبر
-                  <br />
-                  400 ميجا
-                </h2>
+            <h3 className="mt-4 text-5xl font-bold text-green-500">
+              400
+              <span className="text-lg text-slate-400 mr-2">Mbps</span>
+            </h3>
 
-                <div className="mt-10 space-y-8 text-3xl leading-relaxed">
-                  <p>
-                    سرعة التحميل تصل إلى 400
-                    <br />
-                    ميجا في الثانية
-                  </p>
+            <p className="mt-3 text-slate-400">
+              سرعة إنترنت فائقة للمشاهدة والألعاب والعمل من المنزل
+            </p>
 
-                  <p>
-                    سرعة الرفع تصل إلى 150 ميجا
-                    <br />
-                    في الثانية
-                  </p>
-                </div>
-              </div>
+            <div className="my-6 h-px bg-white/10"></div>
 
-              {/* Bottom Content */}
-              <div className="pb-4">
-                <h3 className="text-7xl font-bold">345</h3>
+            <ul className="space-y-4 text-slate-300">
+              <li className="flex items-center gap-3"><FaDownload className="text-green-500 text-lg" /> <span>سرعة التحميل تصل إلى 400 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaUpload className="text-green-500 text-lg" />  <span>سرعة الرفع تصل إلى 150 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaWifi className="text-green-500 text-lg" /> <span>اتصال ثابت وعالي الجودة</span></li>
+              <li className="flex items-center gap-3"> <FaHome className="text-green-500 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
+            </ul>
 
-                <p className="text-3xl mt-2">ريال/شهر</p>
-
-                <div className="bg-cyan-400 text-black mt-7 w-full  font-bold text-4xl p-6 rounded-4xl hover:bg-cyan-300 transition">
-                  <a
-                    href="https://wa.me/966545575181"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    اطلب الان
-                  </a>
-                </div>
-              </div>
+            <div className="mt-8 text-center">
+              <h4 className="text-4xl font-bold text-black-500">
+                345
+                <span className="text-lg text-slate-400 mr-2">ريال / شهر</span>
+              </h4>
             </div>
+
+            <a
+              href="https://wa.me/966545575181"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+      mt-8
+      flex
+      w-full
+      items-center
+      justify-center
+      rounded-xl
+      bg-green-500
+      py-3
+      font-semibold
+      text-white
+      transition-all
+      hover:bg-green-600
+      cursor-pointer
+    "
+            >
+              اطلب الآن
+            </a>
           </div>
+
           {/* third Card */}
-          <div className="relative w-95 h-180 rounded-[40px] overflow-hidden">
-            {/* Background Image */}
-            <Image
-              src={thirdpackage}
-              alt="home fiber"
-              fill
-              className="object-cover"
-            />
+          <div
+            className="
+    group
+    relative
+    overflow-hidden
+    rounded-3xl
+    border border-green-100
+    bg-white/5
+    backdrop-blur-md
+    p-6
+    transition-all
+    duration-500
+    hover:-translate-y-3
+    hover:border-green-500/50
+    hover:shadow-[0_0_40px_rgba(34,197,94,0.2)]
+  "
+          >
+            <div  className="absolute inset-0 pointer-events-none bg-linear-to-b from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" ></div>
 
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-[#0A1F4F]/80"></div>
+            <span className="text-green-500 font-semibold">هوم فايبر</span>
 
-            {/* Content */}
-            <div className="relative z-10 flex flex-col justify-between h-full p-8 text-white text-center">
-              {/* Top Content */}
-              <div>
-                <h2 className="text-5xl font-extrabold leading-tight">
-                  هوم فايبر
-                  <br />
-                  500 ميجا
-                </h2>
+            <h3 className="mt-4 text-5xl font-bold text-green-500">
+              500
+              <span className="text-lg text-slate-400 mr-2">Mbps</span>
+            </h3>
 
-                <div className="mt-10 space-y-8 text-3xl leading-relaxed">
-                  <p>
-                    سرعة التحميل تصل إلى 500
-                    <br />
-                    ميجا في الثانية
-                  </p>
+            <p className="mt-3 text-slate-400">
+              سرعة إنترنت فائقة للمشاهدة والألعاب والعمل من المنزل
+            </p>
 
-                  <p>
-                    سرعة الرفع تصل إلى 200 ميجا
-                    <br />
-                    في الثانية
-                    <br />
-                    3 مقوي واي فاي مجانا
-                  </p>
-                  
-                  
-                </div>
-              </div>
+            <div className="my-6 h-px bg-white/10"></div>
 
-              {/* Bottom Content */}
-              <div className="pb-4">
-                <h3 className="text-7xl font-bold">402.5</h3>
+            <ul className="space-y-4 text-slate-300">
+              <li className="flex items-center gap-3"><FaDownload className="text-green-500 text-lg" /> <span>سرعة التحميل تصل إلى 500 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaUpload className="text-green-500 text-lg" />  <span>سرعة الرفع تصل إلى 200 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaWifi className="text-green-500 text-lg" /> <span>اتصال ثابت وعالي الجودة</span></li>
+              <li className="flex items-center gap-3"> <FaHome className="text-green-500 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
+            </ul>
 
-                <p className="text-3xl mt-2">ريال/شهر</p>
-
-                <div className="bg-cyan-400 text-black mt-7 w-full  font-bold text-4xl p-6 rounded-4xl hover:bg-cyan-300 transition">
-                  <a
-                    href="https://wa.me/966545575181"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    اطلب الان
-                  </a>
-                </div>
-              </div>
+            <div className="mt-8 text-center">
+              <h4 className="text-4xl font-bold text-black-500">
+                402.5
+                <span className="text-lg text-slate-400 mr-2">ريال / شهر</span>
+              </h4>
             </div>
+
+            <a
+              href="https://wa.me/966545575181"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+      mt-8
+      flex
+      w-full
+      items-center
+      justify-center
+      rounded-xl
+      bg-green-500
+      py-3
+      font-semibold
+      text-white
+      transition-all
+      hover:bg-green-600
+      cursor-pointer
+    "
+            >
+              اطلب الآن
+            </a>
           </div>
+
           {/* fourth Card */}
-          <div className="relative w-95 h-180 rounded-[40px] overflow-hidden">
-            {/* Background Image */}
-            <Image
-              src={fourthpackage}
-              alt="home fiber"
-              fill
-              className="object-cover"
-            />
+          <div
+            className="
+    group
+    relative
+    overflow-hidden
+    rounded-3xl
+    border border-green-100
+    bg-white/5
+    backdrop-blur-md
+    p-6
+    transition-all
+    duration-500
+    hover:-translate-y-3
+    hover:border-green-500/50
+    hover:shadow-[0_0_40px_rgba(34,197,94,0.2)]
+  "
+          >
+            <div  className="absolute inset-0 pointer-events-none bg-linear-to-b from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" ></div>
 
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-[#0A1F4F]/80"></div>
+            <span className="text-green-500 font-semibold">هوم فايبر</span>
 
-            {/* Content */}
-            <div className="relative z-10 flex flex-col justify-between h-full p-8 text-white text-center">
-              {/* Top Content */}
-              <div>
-                <h2 className="text-5xl font-extrabold leading-tight">
-                  هوم فايبر
-                  <br />
-                  قيمرز 500
-                </h2>
+            <h3 className="mt-4 text-5xl font-bold text-text-slate-400">
+              قيمرز 500
+            </h3>
 
-                <div className="mt-10 space-y-8 text-3xl leading-relaxed">
-                  <p>
-                    سرعة التحميل تصل إلى 500
-                    <br />
-                    ميجا في الثانية
-                  </p>
+            <p className="mt-3 text-slate-400">
+              سرعة إنترنت فائقة للمشاهدة والألعاب والعمل من المنزل
+            </p>
 
-                  <p>
-                    سرعة الرفع تصل إلى 200 ميجا
-                    <br />
-                    في الثانية
-                    <br />
-                    3 مقوي واي فاي مجانا
-                  </p>
-                  
-                  
-                </div>
-              </div>
+            <div className="my-6 h-px bg-white/10"></div>
 
-              {/* Bottom Content */}
-              <div className="pb-4">
-                <h3 className="text-7xl font-bold">402.5</h3>
+            <ul className="space-y-4 text-slate-300">
+              <li className="flex items-center gap-3"><FaDownload className="text-green-500 text-lg" /> <span>سرعة التحميل تصل إلى 500 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaUpload className="text-green-500 text-lg" />  <span>سرعة الرفع تصل إلى 200 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaWifi className="text-green-500 text-lg" /> <span>3 مقوي واي فاي مجانا</span></li>
+              <li className="flex items-center gap-3"> <FaHome className="text-green-500 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
+            </ul>
 
-                <p className="text-3xl mt-2">ريال/شهر</p>
-
-                <div className="bg-cyan-400 text-black mt-7 w-full  font-bold text-4xl p-6 rounded-4xl hover:bg-cyan-300 transition">
-                  <a
-                    href="https://wa.me/966545575181"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    اطلب الان
-                  </a>
-                </div>
-              </div>
+            <div className="mt-8 text-center">
+              <h4 className="text-4xl font-bold text-black-500">
+                402.5
+                <span className="text-lg text-slate-400 mr-2">ريال / شهر</span>
+              </h4>
             </div>
+
+            <a
+              href="https://wa.me/966545575181"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+      mt-8
+      flex
+      w-full
+      items-center
+      justify-center
+      rounded-xl
+      bg-green-500
+      py-3
+      font-semibold
+      text-white
+      transition-all
+      hover:bg-green-600
+      cursor-pointer
+    "
+            >
+              اطلب الآن
+            </a>
           </div>
+
           {/* Fifth Card */}
-          <div className="relative w-95 h-180 rounded-[40px] overflow-hidden">
-            {/* Background Image */}
-            <Image
-              src={fifthpackage}
-              alt="home fiber"
-              fill
-              className="object-cover"
-            />
 
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-[#0A1F4F]/80"></div>
+          <div
+            className="
+    group
+    relative
+    overflow-hidden
+    rounded-3xl
+    border border-green-100
+    bg-white/5
+    backdrop-blur-md
+    p-6
+    transition-all
+    duration-500
+    hover:-translate-y-3
+    hover:border-green-500/50
+    hover:shadow-[0_0_40px_rgba(34,197,94,0.2)]
+  "
+          >
+            <div  className="absolute inset-0 pointer-events-none bg-linear-to-b from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" ></div>
 
-            {/* Content */}
-            <div className="relative z-10 flex flex-col justify-between h-full p-8 text-white text-center">
-              {/* Top Content */}
-              <div>
-                <h2 className="text-5xl font-extrabold leading-tight">
-                  هوم فايبر
-                  <br />
-                  1 جيجابت
-                </h2>
+            <span className="text-green-500 font-semibold">هوم فايبر</span>
 
-                <div className="mt-10 space-y-8 text-3xl leading-relaxed">
-                  <p>
-                    سرعة التحميل تصل إلى 1
-                    <br />
-                    جيجابت في الثانية
-                  </p>
+            <h3 className="mt-4 text-5xl font-bold text-text-slate-400">
+              1 جيجابت
+            </h3>
 
-                  <p>
-                    سرعة الرفع تصل إلى 300 ميجا
-                    <br />
-                    في الثانية
-                    <br />
-                    3 مقوي واي فاي مجانا
-                  </p>
-                  
-                  
-                </div>
-              </div>
+            <p className="mt-3 text-slate-400">
+              سرعة إنترنت فائقة للمشاهدة والألعاب والعمل من المنزل
+            </p>
 
-              {/* Bottom Content */}
-              <div className="pb-4">
-                <h3 className="text-7xl font-bold">920</h3>
+            <div className="my-6 h-px bg-white/10"></div>
 
-                <p className="text-3xl mt-2">ريال/شهر</p>
+            <ul className="space-y-4 text-slate-300">
+              <li className="flex items-center gap-3"><FaDownload className="text-green-500 text-lg" /> <span>سرعة التحميل تصل إلى 1 جيجابت/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaUpload className="text-green-500 text-lg" />  <span>سرعة الرفع تصل إلى 300 ميجا/ثانية</span></li>
+              <li className="flex items-center gap-3"><FaWifi className="text-green-500 text-lg" /> <span>3 مقوي واي فاي مجانا</span></li>
+              <li className="flex items-center gap-3"> <FaHome className="text-green-500 text-lg" /> <span>مناسب لجميع أفراد الأسرة</span></li>
+            </ul>
 
-                <div className="bg-cyan-400 text-black mt-7 w-full  font-bold text-4xl p-6 rounded-4xl hover:bg-cyan-300 transition">
-                  <a
-                    href="https://wa.me/966545575181"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    اطلب الان
-                  </a>
-                </div>
-              </div>
+            <div className="mt-8 text-center">
+              <h4 className="text-4xl font-bold text-black-500">
+                920
+                <span className="text-lg text-slate-400 mr-2">ريال / شهر</span>
+              </h4>
             </div>
+
+            <a
+              href="https://wa.me/966545575181"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+      mt-8
+      flex
+      w-full
+      items-center
+      justify-center
+      rounded-xl
+      bg-green-500
+      py-3
+      font-semibold
+      text-white
+      transition-all
+      hover:bg-green-600
+      cursor-pointer
+    "
+            >
+              اطلب الآن
+            </a>
           </div>
 
+          
         </div>
+        
 
         <div className="py-20 bg-slate-50 mt-10">
-      <div className="container mx-auto px-4">
-        {/* Heading */}
-        <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-5xl font-bold leading-relaxed">
-            اشتراطات تركيب{" "}
-            <span className="text-blue-600">موبايلي فايبر</span>
-            <br />
-            كيف تعرف هل منزلك جاهز؟
-          </h2>
+          <div className="container mx-auto px-4">
+            {/* Heading */}
+            <div className="text-center max-w-3xl mx-auto">
+              <h2 className="text-3xl md:text-5xl font-bold leading-relaxed">
+                اشتراطات تركيب{" "}
+                <span className="text-blue-600">موبايلي فايبر</span>
+                <br />
+                كيف تعرف هل منزلك جاهز؟
+              </h2>
 
-          <p className="mt-5 text-gray-600 text-sm md:text-lg leading-8">
-            قبل طلب التركيب، تأكد من وجود بوكسية الألياف البصرية على واجهة
-            المبنى ثم أرسل صورة الرقم للمندوب عبر واتساب.
-          </p>
-        </div>
-
-        {/* Steps */}
-        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {steps.map((step) => (
-            <div
-              key={step.id}
-              className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-lg transition-all duration-300 text-center"
-            >
-              <div className="w-14 h-14 mx-auto rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-xl font-bold">
-                {step.id}
-              </div>
-
-              <div className="mt-4 text-blue-600 text-2xl flex justify-center">
-                {step.icon}
-              </div>
-
-              <h3 className="mt-4 font-semibold text-gray-800">
-                {step.title}
-              </h3>
+              <p className="mt-5 text-gray-600 text-sm md:text-lg leading-8">
+                قبل طلب التركيب، تأكد من وجود بوكسية الألياف البصرية على واجهة
+                المبنى ثم أرسل صورة الرقم للمندوب عبر واتساب.
+              </p>
             </div>
-          ))}
-        </div>
 
-        {/* Note */}
-        <div className="mt-10 bg-amber-50 border border-amber-200 rounded-2xl p-5 md:p-6 flex gap-4 items-start">
-          <div className="text-amber-500 text-xl mt-1">
-            <FaLightbulb />
+            {/* Steps */}
+            <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {steps.map((step) => (
+                <div
+                  key={step.id}
+                  className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-lg transition-all duration-300 text-center"
+                >
+                  <div className="w-14 h-14 mx-auto rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-xl font-bold">
+                    {step.id}
+                  </div>
+
+                  <div className="mt-4 text-blue-600 text-2xl flex justify-center">
+                    {step.icon}
+                  </div>
+
+                  <h3 className="mt-4 font-semibold text-gray-800">
+                    {step.title}
+                  </h3>
+                </div>
+              ))}
+            </div>
+
+            {/* Note */}
+            <div className="mt-10 bg-amber-50 border border-amber-200 rounded-2xl p-5 md:p-6 flex gap-4 items-start">
+              <div className="text-amber-500 text-xl mt-1">
+                <FaLightbulb />
+              </div>
+
+              <p className="text-gray-700 leading-8">
+                <span className="font-bold text-amber-600">ملاحظة مهمة:</span>{" "}
+                البوكسية قد تكون تابعة لأي مزود خدمة (موبايلي، STC، سلام...)،
+                المهم وجود البنية التحتية للألياف البصرية في المبنى.
+              </p>
+            </div>
           </div>
-
-          <p className="text-gray-700 leading-8">
-            <span className="font-bold text-amber-600">ملاحظة مهمة:</span>{" "}
-            البوكسية قد تكون تابعة لأي مزود خدمة (موبايلي، STC، سلام...)،
-            المهم وجود البنية التحتية للألياف البصرية في المبنى.
-          </p>
         </div>
-      </div>
-    </div>
-
-
-
-
-
-
       </div>
     </>
   );

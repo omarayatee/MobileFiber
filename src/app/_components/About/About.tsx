@@ -34,16 +34,7 @@ export default function About() {
                 </p>
               </div>
 
-              {/* Notice */}
-              <div className="bg-gray-100 border-r-4 border-green-500 p-4 mt-10 text-sm text-gray-600 leading-7">
-                <span className="font-semibold">تنويه:</span>
-                نحن في Mobile Fiber Srv منصة وساطة مستقلة لتحسين تجربة العملاء،
-                ولسنا جهة مملوكة لأي شركة اتصالات. يرجى مراجعة
-                <a href="#" className="text-blue-600 underline mx-1">
-                  سياسة الخصوصية
-                </a>
-                واستخدام بيانات التواصل لأغراض الطلب.
-              </div>
+              
 
               {/* Phone */}
               <div className="flex justify-end items-center gap-3 mt-8">
