@@ -17,12 +17,12 @@ import { IoIosGlobe } from "react-icons/io";
 export default function Footer() {
   return (
     <>
-      <div className="bg-green-50 border-y border-green-100">
+      <div className="bg-sky-50 border-y border-sky-100">
         <div className="container mx-auto px-4 py-6">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center shrink-0">
-                <FaRocket className="text-green-600 text-lg" />
+              <div className="w-12 h-12 rounded-xl bg-sky-100 flex items-center justify-center shrink-0">
+                <FaRocket className="text-sky-600 text-lg" />
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 text-sm">
@@ -32,8 +32,8 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center shrink-0">
-                <IoIosGlobe  className="text-green-600 text-lg" />
+              <div className="w-12 h-12 rounded-xl bg-sky-100 flex items-center justify-center shrink-0">
+                <IoIosGlobe  className="text-sky-600 text-lg" />
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 text-sm">
@@ -43,8 +43,8 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center shrink-0">
-                <FaShieldAlt className="text-green-600 text-lg" />
+              <div className="w-12 h-12 rounded-xl bg-sky-100 flex items-center justify-center shrink-0">
+                <FaShieldAlt className="text-sky-600 text-lg" />
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 text-sm">
@@ -54,8 +54,8 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center shrink-0">
-                <FaHeadset className="text-green-600 text-lg" />
+              <div className="w-12 h-12 rounded-xl bg-sky-100 flex items-center justify-center shrink-0">
+                <FaHeadset className="text-sky-600 text-lg" />
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 text-sm">
@@ -98,23 +98,23 @@ export default function Footer() {
               <div className="space-y-3 text-sm mb-6">
                 <a
                   href="tel:+966545575181"
-                  className="flex items-center gap-2 hover:text-green-500"
+                  className="flex items-center gap-2 hover:text-sky-500"
                 >
-                  <FaPhoneAlt className="text-green-500" />
+                  <FaPhoneAlt className="text-sky-500" />
                   <span>+966 54 557 5181</span>
                 </a>
                 <a
                   href="Ibraheem1999ahmed1999@gmail.com"
                   className="flex gap-2 items-center"
                 >
-                  <MdEmail className="text-green-500" />
-                  <span className="hover:text-green-500 cursor-pointer">
+                  <MdEmail className="text-sky-500" />
+                  <span className="hover:text-sky-500 cursor-pointer">
                     support@Mobily-Fiber.com
                   </span>
                 </a>
                 <div className="flex gap-2 items-center">
-                  <FaMapMarkerAlt className="text-green-500" />
-                  <span className="hover:text-green-500 cursor-pointer">
+                  <FaMapMarkerAlt className="text-sky-500" />
+                  <span className="hover:text-sky-500 cursor-pointer">
                     جميع انحاء المملكة العربية السعوديه
                   </span>
                 </div>
@@ -122,25 +122,25 @@ export default function Footer() {
               <div className="flex gap-2">
                 <a
                   href="#"
-                  className="hover:cursor-pointer hover:bg-green-500 w-10 h-10 rounded-full bg-[#1E2939] flex justify-center items-center hover:text-white transition-colors"
+                  className="hover:cursor-pointer hover:bg-sky-500 w-10 h-10 rounded-full bg-[#1E2939] flex justify-center items-center hover:text-white transition-colors"
                 >
                   <FaWhatsapp />
                 </a>
                 <a
                   href="#"
-                  className="hover:cursor-pointer hover:bg-green-500 w-10 h-10 rounded-full bg-[#1E2939] flex justify-center items-center hover:text-white transition-colors"
+                  className="hover:cursor-pointer hover:bg-sky-500 w-10 h-10 rounded-full bg-[#1E2939] flex justify-center items-center hover:text-white transition-colors"
                 >
                   <FaTwitter />
                 </a>
                 <a
                   href="#"
-                  className="hover:cursor-pointer hover:bg-green-500 w-10 h-10 rounded-full bg-[#1E2939] flex justify-center items-center hover:text-white transition-colors"
+                  className="hover:cursor-pointer hover:bg-sky-500 w-10 h-10 rounded-full bg-[#1E2939] flex justify-center items-center hover:text-white transition-colors"
                 >
                   <FaInstagram />
                 </a>
                 <a
                   href="#"
-                  className="hover:cursor-pointer hover:bg-green-500 w-10 h-10 rounded-full bg-[#1E2939] flex justify-center items-center hover:text-white transition-colors"
+                  className="hover:cursor-pointer hover:bg-sky-500 w-10 h-10 rounded-full bg-[#1E2939] flex justify-center items-center hover:text-white transition-colors"
                 >
                   <FaYoutube />
                 </a>
@@ -149,21 +149,21 @@ export default function Footer() {
             <div className="lg:col-span-2">
               <h3 className="font-semibold text-white text-lg mb-5">خدماتنا</h3>
               <ul className="space-y-3 text-sm">
-                <li className="hover:text-green-500 hover:cursor-pointer transition-colors">
+                <li className="hover:text-sky-500 hover:cursor-pointer transition-colors">
                   <Link href="/">تركيب الألياف البصرية</Link>
                 </li>
-                <li className="hover:text-green-500 hover:cursor-pointer transition-colors">
+                <li className="hover:text-sky-500 hover:cursor-pointer transition-colors">
                   <Link href="/">تأسيس الشبكات المنزلية</Link>
                 </li>
-                <li className="hover:text-green-500 hover:cursor-pointer transition-colors">
+                <li className="hover:text-sky-500 hover:cursor-pointer transition-colors">
                   <Link href="/">دعم فني 24/7</Link>
                 </li>
-                <li className="hover:text-green-500 hover:cursor-pointer transition-colors">
+                <li className="hover:text-sky-500 hover:cursor-pointer transition-colors">
                   <Link href="/">
                     اختبار سرعة الإنترنت
                   </Link>
                 </li>
-                <li className="hover:text-green-500 hover:cursor-pointer transition-colors">
+                <li className="hover:text-sky-500 hover:cursor-pointer transition-colors">
                   <Link href="/">
                     صيانة الشبكات
                   </Link>
@@ -175,19 +175,19 @@ export default function Footer() {
             <div className="lg:col-span-2">
               <h3 className="font-semibold text-white text-lg mb-5">روابط سريعة</h3>
               <ul className="space-y-3 text-sm">
-                <li className="hover:text-green-500 hover:cursor-pointer transition-colors">
+                <li className="hover:text-sky-500 hover:cursor-pointer transition-colors">
                   <Link href="/">الرئيسية</Link>
                 </li>
-                <li className="hover:text-green-500 hover:cursor-pointer transition-colors">
+                <li className="hover:text-sky-500 hover:cursor-pointer transition-colors">
                   <Link href="/">من نحن</Link>
                 </li>
-                <li className="hover:text-green-500 hover:cursor-pointer transition-colors">
+                <li className="hover:text-sky-500 hover:cursor-pointer transition-colors">
                   <Link href="/">خدماتنا</Link>
                 </li>
-                <li className="hover:text-green-500 hover:cursor-pointer transition-colors">
+                <li className="hover:text-sky-500 hover:cursor-pointer transition-colors">
                   <Link href="/">الباقات</Link>
                 </li>
-                <li className="hover:text-green-500 hover:cursor-pointer transition-colors">
+                <li className="hover:text-sky-500 hover:cursor-pointer transition-colors">
                   <Link href="/">المدونة</Link>
                 </li>
               </ul>
@@ -195,7 +195,7 @@ export default function Footer() {
             <div className="lg:col-span-2">
               <h3 className="font-semibold text-white text-lg mb-5">معلومات التواصل</h3>
               <ul className="space-y-3 text-sm">
-                <li className="hover:text-green-500 hover:cursor-pointer transition-colors">
+                <li className="hover:text-sky-500 hover:cursor-pointer transition-colors">
                   <Link href="/">0545575181</Link>
                 </li>
                 

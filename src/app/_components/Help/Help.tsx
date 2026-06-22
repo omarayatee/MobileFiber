@@ -49,7 +49,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <span className="bg-green-100 text-green-600 px-4 py-2 rounded-full text-sm font-semibold">
+          <span className="bg-green-100 text-sky-600 px-4 py-2 rounded-full text-sm font-semibold">
             خدماتنا
           </span>
 
@@ -70,7 +70,7 @@ export default function Services() {
               key={index}
               className="group bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-3 border border-gray-100"
             >
-              <div className="w-16 h-16 rounded-2xl bg-green-100 flex items-center justify-center text-3xl text-green-600 mb-6 group-hover:scale-110 transition">
+              <div className="w-16 h-16 rounded-2xl bg-sky-100 flex items-center justify-center text-3xl text-sky-600 mb-6 group-hover:scale-110 transition">
                 {service.icon}
               </div>
 

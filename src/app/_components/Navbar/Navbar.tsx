@@ -29,7 +29,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 lg:h-18 gap-4 lg:gap-8">
             <Link href="/" className="flex gap-2 justify-center items-center">
               <div className="flex flex-col gap-0.5 items-center justify-center">
-                <h3 className="text-[#008236] text-3xl">Mobile Fiber</h3>
+                <h3 className="text-sky-500 text-3xl">Mobile Fiber</h3>
                 <p className="text-xl">مندوب فايبر موبايلي</p>
               </div>
               <Image
@@ -44,10 +44,10 @@ export default function Navbar() {
               <Field orientation="horizontal" className="relative ">
                 <Input
                   type="search"
-                  className="w-full! px-5! py-5! pr-12! rounded-full! border! border-gray-200! bg-gray-50/50 focus:bg-white! focus:outline-none! focus:ring-2! focus:ring-green-500/20! focus:border-green-500! transition-all! text-sm"
+                  className="w-full! px-5! py-5! pr-12! rounded-full! border! border-gray-200! bg-gray-50/50 focus:bg-white! focus:outline-none! focus:ring-2! focus:ring-sky-500/20! focus:border-sky-500! transition-all! text-sm"
                   placeholder="البحث عن الخدمة التي تحتاجها ..."
                 />
-                <Button className="absolute right-1.5 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-green-600 text-white flex items-center justify-center hover:bg-green-700 transition-colors">
+                <Button className="absolute right-1.5 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-sky-600 text-white flex items-center justify-center hover:bg-sky-700 transition-colors">
                   <FaSearch />
                 </Button>
               </Field>
@@ -55,37 +55,37 @@ export default function Navbar() {
             <nav className="hidden xl:flex items-center gap-5">
               <Link
                 href="/"
-                className="text-gray-700 hover:text-green-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-sky-600 font-medium transition-colors"
               >
                 الرئيسية
               </Link>
               <Link
                 href="#about"
-                className="text-gray-700 hover:text-green-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-sky-600 font-medium transition-colors"
               >
                 من نحن
               </Link>
               <Link
                 href="#packages"
-                className="text-gray-700 hover:text-green-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-sky-600 font-medium transition-colors"
               >
                 الباقات
               </Link>
               <Link
                 href="#help"
-                className="text-gray-700 hover:text-green-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-sky-600 font-medium transition-colors"
               >
                 خدماتنا
               </Link>
               <Link
                 href="#customer"
-                className="text-gray-700 hover:text-green-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-sky-600 font-medium transition-colors"
               >
                 آراء عملائنا
               </Link>
               <Link
                 href="#contact"
-                className="text-gray-700 hover:text-green-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-sky-600 font-medium transition-colors"
               >
                 تواصل معنا
               </Link>
@@ -96,7 +96,7 @@ export default function Navbar() {
                 className="hidden lg:flex items-center gap-2 pr-3 mr-2 border-r border-gray-200 hover:opacity-80 transition-opacity"
               >
                 <div className="w-10 h-10 rounded-full bg-green-50 flex items-center justify-center">
-                  <FaHeadset className=" text-green-500" />
+                  <FaHeadset className=" text-sky-500" />
                 </div>
                 <div className="text-xs">
                   <div>
@@ -107,7 +107,7 @@ export default function Navbar() {
               </Link>
 
               <Sheet>
-                <SheetTrigger className="lg:hidden cursor-pointer ml-1 w-10 h-10 rounded-full bg-green-600 hover:bg-green-700 text-white flex items-center justify-center transition-colors">
+                <SheetTrigger className="lg:hidden cursor-pointer ml-1 w-10 h-10 rounded-full bg-sky-600 hover:bg-sky-700 text-white flex items-center justify-center transition-colors">
                   <FaBars />
                 </SheetTrigger>
                 <SheetContent className="lg:hidden w-80! right-0! max-w-[85vw] overflow-y-auto!">
@@ -115,7 +115,7 @@ export default function Navbar() {
                     <SheetTitle>
                       <div className="flex gap-2 justify-end">
                         <div className="flex flex-col gap-0.5 items-center justify-center">
-                          <h3 className="text-[#008236] text-xl">
+                          <h3 className="text-sky-500 text-xl">
                             Mobile Fiber Srv
                           </h3>
                           <p>مندوب فايبر موبايلي</p>
@@ -135,10 +135,10 @@ export default function Navbar() {
                       <Field orientation="horizontal" className="relative ">
                         <Input
                           type="search"
-                          className="w-full! px-5! py-6! pr-12! rounded-xl! border! border-gray-200! bg-gray-50/50 focus:bg-white! focus:outline-none! focus:ring-2! focus:ring-green-500/20! focus:border-green-500! transition-all! text-sm"
+                          className="w-full! px-5! py-6! pr-12! rounded-xl! border! border-gray-200! bg-gray-50/50 focus:bg-white! focus:outline-none! focus:ring-2! focus:ring-green-500/20! focus:border-sky-500! transition-all! text-sm"
                           placeholder="البحث عن خدمات ..."
                         />
-                        <Button className="absolute right-1.5 top-1/2 -translate-y-1/2 w-9 h-9 rounded-lg bg-green-600 text-white flex items-center justify-center hover:bg-green-700 transition-colors">
+                        <Button className="absolute right-1.5 top-1/2 -translate-y-1/2 w-9 h-9 rounded-lg bg-sky-600 text-white flex items-center justify-center hover:bg-sky-700 transition-colors">
                           <FaSearch />
                         </Button>
                       </Field>
@@ -148,7 +148,7 @@ export default function Navbar() {
                         <SheetClose>
                           <Link
                             href="/"
-                            className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors"
+                            className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-sky-600 hover:bg-sky-50 transition-colors"
                           >
                             الرئيسية
                           </Link>
@@ -156,7 +156,7 @@ export default function Navbar() {
                         <SheetClose>
                           <Link
                             href="#about"
-                            className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors"
+                            className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-sky-600 hover:bg-sky-50 transition-colors"
                           >
                             من نحن
                           </Link>
@@ -164,7 +164,7 @@ export default function Navbar() {
                         <SheetClose>
                           <Link
                             href="#packages"
-                            className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors"
+                            className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-sky-600 hover:bg-sky-50 transition-colors"
                           >
                             الباقات
                           </Link>
@@ -173,7 +173,7 @@ export default function Navbar() {
                         <SheetClose>
                           <Link
                             href="#help"
-                            className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors"
+                            className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-sky-600 hover:bg-sky-50 transition-colors"
                           >
                             خدماتنا
                           </Link>
@@ -182,7 +182,7 @@ export default function Navbar() {
                         <SheetClose>
                           <Link
                             href="#customer"
-                            className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors"
+                            className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-sky-600 hover:bg-sky-50 transition-colors"
                           >
                             آراء عملائنا
                           </Link>
@@ -190,7 +190,7 @@ export default function Navbar() {
                         <SheetClose>
                           <Link
                             href="#contact"
-                            className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors"
+                            className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-sky-600 hover:bg-sky-50 transition-colors"
                           >
                             تواصل معنا
                           </Link>
@@ -202,16 +202,16 @@ export default function Navbar() {
                     <SheetClose>
                       <Link
                         href="#contact"
-                        className="mt-2 p-4 rounded-xl bg-gray-50 border border-gray-100 flex items-center gap-3 hover:bg-green-50 transition-colors"
+                        className="mt-2 p-4 rounded-xl bg-gray-50 border border-gray-100 flex items-center gap-3 hover:bg-sky-50 transition-colors"
                       >
-                        <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                          <FaHeadset className="text-lg text-green-600" />
+                        <div className="w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center">
+                          <FaHeadset className="text-lg text-sky-600" />
                         </div>
                         <div>
                           <div className="text-sm font-semibold text-start text-gray-700">
                             Need Help?
                           </div>
-                          <div className="text-sm text-green-600">
+                          <div className="text-sm text-sky-600">
                             Contact Support
                           </div>
                         </div>

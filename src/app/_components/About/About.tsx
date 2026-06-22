@@ -15,7 +15,7 @@ export default function About() {
           />
           <div className="flex flex-row items-center pb-10">
             <div className="bg-green-100 p-6 md:p-10 relative h-[90%]">
-              <h2 className="text-green-600 font-bold text-lg text-right mb-8">
+              <h2 className="text-sky-600 font-bold text-lg text-right mb-8">
                 من نحن
               </h2>
 
@@ -36,13 +36,13 @@ export default function About() {
 
               {/* Phone */}
               <div className="flex justify-end items-center gap-3 mt-8">
-                <span className="text-3xl font-bold text-green-500">
+                <span className="text-3xl font-bold text-sky-500">
                   0545575181
                 </span>
 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-8 h-8 text-green-500"
+                  className="w-8 h-8 text-sky-500"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
